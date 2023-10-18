@@ -4,7 +4,7 @@ const { message } = require('telegraf/filters')
 const fs = require('fs');
 const ytdl = require('ytdl-core');
 
-const bot_token = '6393853527:AAGvzuedwxqbmrSYIf4QtmarTjcLDRFy2zM'
+const bot_token = '6560130899:AAF152G22-oKdksIPApYFTbO7KF93igCcKM'
 const bot = new Telegraf(bot_token);
 
 bot.start((ctx) => ctx.reply('Hola Rey'));
